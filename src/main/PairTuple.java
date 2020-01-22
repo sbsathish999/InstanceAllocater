@@ -1,3 +1,5 @@
+package main;
+
 public final class PairTuple implements Tuple{
 
     final Object firstIndexValue;

@@ -1,3 +1,5 @@
+package main;
+
 public class CustomObjectMapper {
 
     public <T> T convertValue(String value, Class<T> cls, String[] parserTypes) {
