@@ -1,6 +1,8 @@
 package main;
 
-public class CustomObjectMapper {
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+public class CustomObjectMapper extends ObjectMapper {
 
     public <T> T convertValue(String value, Class<T> cls, String[] parserTypes) {
         if(cls == PairTuple.class) {
